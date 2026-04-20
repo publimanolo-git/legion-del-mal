@@ -4,7 +4,7 @@ pipeline {
     stage('error') {
       agent any
       steps {
-        echo 'Prueba'
+        sh 'echo \'Hola\''
       }
     }
 
